@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{9874e671-8509-4a31-8dc1-dc525e2aad71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{507f9185-428d-4a2e-86c1-3e0d8632faf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Resources">
+      <UniqueIdentifier>{02923e1b-279d-4008-a54d-dcda1cb1b8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI">
+      <UniqueIdentifier>{246302c3-cdc9-4e4a-b440-d516a7936e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{38622eb9-568a-4b4c-a8e5-d99407de9b65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStates">
+      <UniqueIdentifier>{64e1971a-ba30-4c2f-b309-45c10fd0590e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Resources\Rocks">
+      <UniqueIdentifier>{242b9e69-7f6c-4598-863f-a8b387924e39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TinyObjectLoader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectModel.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectShader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_draw.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_opengl3.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_tables.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_widgets.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsDraw.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsObj.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainModel.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Zone.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="xorshift32.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateGame.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateLose.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateMainMenu.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStatePause.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle.cpp" />
+    <ClCompile Include="ContactCallback.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\stb_image.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\tiny_obj_loader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectModel.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectShader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imconfig.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_impl_opengl3.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_internal.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_rectpack.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_textedit.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_truetype.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsObj.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsDraw.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoneType.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainModel.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Zone.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="xorshift32.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateGame.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateLose.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateMainMenu.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStatePause.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle.h" />
+    <ClInclude Include="ContactCallback.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Models\14090_ Hear_ No_ Evil_ Monkey_v2.png">
+      <Filter>Headers\Resources</Filter>
+    </Image>
+    <Image Include="Resources\Models\14090_ Hear_ No_ Evil_ Monkey_v2_diff.jpg">
+      <Filter>Headers\Resources</Filter>
+    </Image>
+    <Image Include="Resources\Models\pitfallTempTiles.png">
+      <Filter>Headers\Resources</Filter>
+    </Image>
+    <Image Include="Resources\Models\PitfallMonkeyDiffuse.png">
+      <Filter>Headers\Resources</Filter>
+    </Image>
+    <Image Include="Resources\Models\PitfallMonkeyRoughness.png">
+      <Filter>Headers\Resources</Filter>
+    </Image>
+    <Image Include="Resources\Models\Monkeysegwaydiffuse.png">
+      <Filter>Headers\Resources</Filter>
+    </Image>
+    <Image Include="Resources\Models\rock1_lp_1001_BaseColor.png">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </Image>
+    <Image Include="Resources\Models\rock1_lp_1001_Normal.png">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </Image>
+    <Image Include="Resources\Models\rock1_lp_1001_Roughness.png">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </Image>
+    <Image Include="Resources\Models\rock3_lp_1001_BaseColor.png">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </Image>
+    <Image Include="Resources\Models\rock3_lp_1001_Normal.png">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </Image>
+    <Image Include="Resources\Models\rock3_lp_1001_Roughness.png">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </Image>
+    <Image Include="Resources\Models\rock4_lp_1001_BaseColor.png">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </Image>
+    <Image Include="Resources\Models\rock4_lp_1001_Normal.png">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </Image>
+    <Image Include="Resources\Models\rock4_lp_1001_Roughness.png">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </Image>
+    <Image Include="Resources\Models\rock5_lp_1001_BaseColor.png">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </Image>
+    <Image Include="Resources\Models\rock5_lp_1001_Normal.png">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </Image>
+    <Image Include="Resources\Models\rock5_lp_1001_Roughness.png">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </Image>
+    <Image Include="Resources\Models\rock6_lp_1001_BaseColor.png">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </Image>
+    <Image Include="Resources\Models\rock6_lp_1001_Normal.png">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </Image>
+    <Image Include="Resources\Models\rock6_lp_1001_Roughness.png">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Models\14090_Hear_No_Evil_Monkey_v2_L1.mtl">
+      <Filter>Headers\Resources</Filter>
+    </None>
+    <None Include="Shaders\Debug.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Debug.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Object.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Models\plane.mtl">
+      <Filter>Headers\Resources</Filter>
+    </None>
+    <None Include="Resources\Models\convexhullTestPlane.mtl">
+      <Filter>Headers\Resources</Filter>
+    </None>
+    <None Include="Resources\Models\pitfallTempTiles.mtl">
+      <Filter>Headers\Resources</Filter>
+    </None>
+    <None Include="Resources\Models\crate.mtl">
+      <Filter>Headers\Resources</Filter>
+    </None>
+    <None Include="Resources\Models\pitfallgroundhitbox.mtl">
+      <Filter>Headers\Resources</Filter>
+    </None>
+    <None Include="Resources\Models\pitfallMonkeyCharacter.mtl">
+      <Filter>Headers\Resources</Filter>
+    </None>
+    <None Include="Resources\Models\pitfallMonkeySegway.mtl">
+      <Filter>Headers\Resources</Filter>
+    </None>
+    <None Include="Shaders\Terrain.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Terrain.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Models\rock1.mtl">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </None>
+    <None Include="Resources\Models\rock3.mtl">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </None>
+    <None Include="Resources\Models\rock4.mtl">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </None>
+    <None Include="Resources\Models\rock5.mtl">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </None>
+    <None Include="Resources\Models\rock6.mtl">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </None>
+    <None Include="Shaders\Object.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Resources\Models\14090_Hear_No_Evil_Monkey_v2_L1.obj">
+      <Filter>Headers\Resources</Filter>
+    </Object>
+    <Object Include="Resources\Models\plane.obj">
+      <Filter>Headers\Resources</Filter>
+    </Object>
+    <Object Include="Resources\Models\convexhullTestPlane.obj">
+      <Filter>Headers\Resources</Filter>
+    </Object>
+    <Object Include="Resources\Models\pitfallTempTiles.obj">
+      <Filter>Headers\Resources</Filter>
+    </Object>
+    <Object Include="Resources\Models\crate.obj">
+      <Filter>Headers\Resources</Filter>
+    </Object>
+    <Object Include="Resources\Models\pitfallgroundhitbox.obj">
+      <Filter>Headers\Resources</Filter>
+    </Object>
+    <Object Include="Resources\Models\pitfallMonkeyCharacter.obj">
+      <Filter>Headers\Resources</Filter>
+    </Object>
+    <Object Include="Resources\Models\pitfallMonkeySegway.obj">
+      <Filter>Headers\Resources</Filter>
+    </Object>
+    <Object Include="Resources\Models\rock1.obj">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </Object>
+    <Object Include="Resources\Models\rock3.obj">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </Object>
+    <Object Include="Resources\Models\rock4.obj">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </Object>
+    <Object Include="Resources\Models\rock5.obj">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </Object>
+    <Object Include="Resources\Models\rock6.obj">
+      <Filter>Headers\Resources\Rocks</Filter>
+    </Object>
+  </ItemGroup>
+</Project>

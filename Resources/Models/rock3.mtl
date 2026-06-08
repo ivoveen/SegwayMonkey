@@ -1,0 +1,12 @@
+#
+#
+#
+
+newmtl Rock_lp_3 Mesh_initialShadingGroup
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.500000 0.500000 0.500000
+Ks 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd rock3_lp_1001_BaseColor.png
+

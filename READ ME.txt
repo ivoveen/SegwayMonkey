@@ -1,0 +1,14 @@
+CONTROLS:
+
+move mouse and click to click the buttons
+
+character controls:
+a - move left
+d  - move right
+space - jump
+esc - pause menu
+
+
+
+
+
